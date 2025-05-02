@@ -1,25 +1,31 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
+// Reusable components for the website
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [],
+  header: [
+    Component.PageTitle(),
+    Component.Search(),
+    Component.Darkmode(),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
+      GitHub: "https://github.com/houseofbrands",
+      LinkedIn: "https://linkedin.com/company/sourcingwala",
+      Instagram: "https://instagram.com/sourcingwala",
+      Facebook: "https://facebook.com/sourcingwala"
+    }
   }),
+  afterBody: [], // Add empty afterBody array to fix the error
 }
 
-// components for pages that display a single page (e.g. a single note)
+// Default layout for content pages
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+    Component.Breadcrumbs({
+      spacerSymbol: "❯",
+      rootName: "Home",
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -27,42 +33,33 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
+    Component.Explorer({
+      title: "Navigation",
+      folderDefaultState: "open",
+      filterFn: (node) => {
+        // Add your filter logic here
+        return true
+      },
     }),
-    Component.Explorer(),
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.TableOfContents({
+      layout: "modern"
+    }),
     Component.Backlinks(),
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// Default layout for index/home page
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.ArticleTitle()],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
+    Component.Explorer({
+      title: "Navigation",
+      folderDefaultState: "open",
     }),
-    Component.Explorer(),
   ],
   right: [],
 }
