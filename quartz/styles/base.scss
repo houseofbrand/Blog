@@ -107,9 +107,8 @@ a {
       padding: 0;
     }
     &.tag-link {
-      &::before {
-        content: "#";
-      }
+      border-radius: 5px;
+      line-height: 1.4rem;
     }
   }
 

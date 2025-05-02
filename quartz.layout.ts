@@ -45,6 +45,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TableOfContents({
       layout: "modern"
     }),
+    Component.RecentNotes({
+      title: "Latest Articles",
+      limit: 3,
+      showTags: true
+    }),
     Component.Backlinks(),
   ],
 }

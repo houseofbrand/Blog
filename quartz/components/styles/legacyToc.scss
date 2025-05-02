@@ -19,6 +19,10 @@ details.toc {
     padding: 0;
   }
 
+  & li {
+    margin: 0.4rem 0;  // Added spacing between items
+  }
+
   @for $i from 1 through 6 {
     & .depth-#{$i} {
       padding-left: calc(1rem * #{$i});
