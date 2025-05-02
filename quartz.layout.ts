@@ -5,7 +5,6 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.PageTitle(),
     Component.Search(),
     Component.Darkmode(),
   ],
@@ -17,33 +16,32 @@ export const sharedPageComponents: SharedLayout = {
       Facebook: "https://facebook.com/sourcingwala"
     }
   }),
-  afterBody: [], // Add empty afterBody array to fix the error
+  afterBody: [],
 }
 
 // Default layout for content pages
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs({
-      spacerSymbol: "❯",
-      rootName: "Home",
-    }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs({
+        spacerSymbol: "❯",
+        rootName: "Home",
+        showCurrentPage: false
+      }),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.Explorer({
       title: "Navigation",
       folderDefaultState: "open",
-      filterFn: (node) => {
-        // Add your filter logic here
-        return true
-      },
     }),
   ],
   right: [
-    Component.Graph(),
     Component.TableOfContents({
       layout: "modern"
     }),

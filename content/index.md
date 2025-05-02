@@ -28,6 +28,3 @@ Visit [SourcingWala.com](https://sourcingwala.com) to learn more about our servi
 - [LinkedIn](https://linkedin.com/company/sourcingwala)
 - [Instagram](https://instagram.com/sourcingwala)
 - [Facebook](https://facebook.com/sourcingwala)
-
-## Newsletter
-Subscribe to our newsletter for the latest updates on fashion wholesale and manufacturing trends.

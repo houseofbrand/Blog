@@ -88,6 +88,14 @@
       pointer-events: none;
     }
   }
+
+  .folder-outer > ul {
+    overflow: hidden;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
 }
 
 button.mobile-explorer,
@@ -144,9 +152,10 @@ button.desktop-explorer {
 
   .folder-outer > ul {
     overflow: hidden;
-    margin-left: 6px;
-    padding-left: 0.8rem;
-    border-left: 1px solid var(--lightgray);
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
 }
 
@@ -155,6 +164,8 @@ button.desktop-explorer {
   display: flex;
   align-items: center;
   user-select: none;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 
   & div > a {
     color: var(--secondary);

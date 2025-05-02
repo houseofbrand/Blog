@@ -47,14 +47,18 @@ ul.toc-content.overflow {
   overscroll-behavior: contain;
   list-style: none;
 
-  & > li > a {
-    color: var(--dark);
-    opacity: 0.35;
-    transition:
-      0.5s ease opacity,
-      0.3s ease color;
-    &.in-view {
-      opacity: 0.75;
+  & > li {
+    margin: 0.4rem 0;  // Added spacing between items
+    
+    & > a {
+      color: var(--dark);
+      opacity: 0.35;
+      transition:
+        0.5s ease opacity,
+        0.3s ease color;
+      &.in-view {
+        opacity: 0.75;
+      }
     }
   }
 
