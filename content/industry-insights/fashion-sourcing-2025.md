@@ -47,7 +47,7 @@ These trends are reshaping how brands approach sourcing:
 - Growing importance of sustainability metrics
 - Need for skilled digital workforce
 
-## How SourcingWala Adapts
+## How House of Brands Adapts
 We're staying ahead by:
 1. Implementing sustainable practices
 2. Investing in digital technologies

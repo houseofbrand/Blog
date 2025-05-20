@@ -10,7 +10,7 @@ tags:
 
 # Our Journey with Myntra OEM Brands
 
-With over two decades of experience in fashion manufacturing and wholesale, SourcingWala has established itself as a trusted OEM partner for several leading Myntra brands. Here's a look at our successful partnerships and the impact we've created.
+With over two decades of experience in fashion manufacturing and wholesale, House of Brands has established itself as a trusted OEM partner for several leading Myntra brands. Here's a look at our successful partnerships and the impact we've created.
 
 ## Featured Brand Collaborations
 

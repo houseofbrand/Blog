@@ -1,9 +1,9 @@
 ---
-title: SourcingWala Blog
+title: House of Brands Blog
 description: Insights into wholesale fashion, OEM manufacturing, and industry trends
 ---
 
-# Welcome to SourcingWala Blog 👋
+# Welcome to House of Brands Blog 👋
 
 Your source for insights into wholesale fashion, OEM manufacturing, and industry trends. With over 23 years of expertise in design, manufacturing, and sourcing, we share our knowledge and experience to help you navigate the fashion industry.
 
@@ -24,7 +24,7 @@ Your source for insights into wholesale fashion, OEM manufacturing, and industry
 ![[Recent Blog Posts|blogs]]
 
 ## Connect With Us
-Visit [SourcingWala.com](https://sourcingwala.com) to learn more about our services, or follow us on:
-- [LinkedIn](https://linkedin.com/company/sourcingwala)
-- [Instagram](https://instagram.com/sourcingwala)
-- [Facebook](https://facebook.com/sourcingwala)
+Visit [houseofbrands.in](https://houseofbrands.in) to learn more about our services, or follow us on:
+- [LinkedIn](https://www.linkedin.com/company/houseofbrandsofficial/)
+- [Instagram](https://instagram.com/HouseofBrands)
+- [Facebook](https://facebook.com/HouseofBrands)

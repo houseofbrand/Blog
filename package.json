@@ -5,10 +5,10 @@
   "version": "1.0.0",
   "type": "module",
   "author": "House of Brands <care@houseofbrands.in>",
-  "homepage": "https://blog.houseofbrands.in",
+  "homepage": "https://houseofbrands.in/blog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/houseofbrands/blog.git"
+    "url": "https://github.com/houseofbrand/blog.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",

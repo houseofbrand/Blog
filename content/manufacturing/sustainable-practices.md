@@ -10,7 +10,7 @@ tags:
 
 # Sustainable Manufacturing Practices in Fashion
 
-At SourcingWala, sustainability isn't just a buzzword—it's a core part of our manufacturing philosophy. Here's how we're making fashion more environmentally responsible.
+At House of Brands, sustainability isn't just a buzzword—it's a core part of our manufacturing philosophy. Here's how we're making fashion more environmentally responsible.
 
 ## Our Sustainable Initiatives
 
