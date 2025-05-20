@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       tagId: "", // Replace with your Google Analytics tag
     },
     locale: "en-US",
-    baseUrl: "houseofbrands.in/blog",
+    baseUrl: "http://blog.houseofbrands.in/",
     ignorePatterns: ["private", "templates", ".git/"],
     defaultDateType: "created",
     theme: {

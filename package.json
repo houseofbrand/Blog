@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "type": "module",
   "author": "House of Brands <care@houseofbrands.in>",
-  "homepage": "https://houseofbrands.in/blog",
+  "homepage": "http://blog.houseofbrands.in/",
   "repository": {
     "type": "git",
     "url": "https://github.com/houseofbrand/blog.git"
