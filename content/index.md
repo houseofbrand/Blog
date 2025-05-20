@@ -13,12 +13,12 @@ Your source for insights into wholesale fashion, OEM manufacturing, and industry
 - [[manufacturing/sustainable-practices|Sustainable Manufacturing Practices]]
 
 ## Categories
-- 💼 [[Business Insights]]
-- 🏭 [[Manufacturing]]
-- 🌐 [[Global Markets]]
-- 📈 [[Industry Trends]]
-- 🤝 [[Partnerships]]
-- 🎯 [[Case Studies]]
+- 💼 [[business-insights|Business Insights]]
+- 🏭 [[manufacturing|Manufacturing]]
+- 🌐 [[global-markets|Global Markets]]
+- 📈 [[industry-trends|Industry Trends]]
+- 🤝 [[partnerships|Partnerships]]
+- 🎯 [[case-studies|Case Studies]]
 
 ## Recent Updates
 ![[Recent Blog Posts|blogs]]
