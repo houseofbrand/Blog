@@ -10,10 +10,9 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/houseofbrands",
-      LinkedIn: "https://linkedin.com/company/sourcingwala",
-      Instagram: "https://instagram.com/sourcingwala",
-      Facebook: "https://facebook.com/sourcingwala"
+      LinkedIn: "https://linkedin.com/company/houseofbrands",
+      Instagram: "https://instagram.com/houseofbrands",
+      Facebook: "https://facebook.com/houseofbrands"
     }
   }),
   afterBody: [],

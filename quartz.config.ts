@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "SourcingWala Blog",
-    pageTitleSuffix: " - SourcingWala",
+    pageTitle: "House of Brands Blog",
+    pageTitleSuffix: " - House of Brands",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       tagId: "", // Replace with your Google Analytics tag
     },
     locale: "en-US",
-    baseUrl: "blog.sourcingwala.com",
+    baseUrl: "blog.houseofbrands.in",
     ignorePatterns: ["private", "templates", ".git/"],
     defaultDateType: "created",
     theme: {

@@ -1,15 +1,14 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "house-of-brands-blog",
+  "description": "HOB is a leading design and manufacturing company specializing in watches, sunglasses, leather accessories, apparel, and more for men, women, and kids. We partner with top e-commerce platforms like Myntra, Noon, Flipkart, and Reliance to create exclusive collections. With over 20 years of industry expertise, we combine craftsmanship with contemporary design, delivering high-quality fashion.",
   "private": true,
-  "version": "4.5.0",
+  "version": "1.0.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "author": "House of Brands <care@houseofbrands.in>",
+  "homepage": "https://blog.houseofbrands.in",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/houseofbrands/blog.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
